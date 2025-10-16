@@ -9,7 +9,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Portfolio | Web Developer",
   description:
-    "プロフェッショナルなWeb開発者のポートフォリオサイト。制作実績、スキルセット、お問い合わせフォームをご覧いただけます。",
+    "ポートフォリオサイト",
   generator: "v0.app",
 }
 
