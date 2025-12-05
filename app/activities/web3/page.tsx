@@ -30,7 +30,7 @@ export default function Web3Page() {
                 <span>•</span>
                 <span className="flex items-center gap-1">
                   <Users className="h-4 w-4" />
-                  総メンバー：155人（2025年10月現在）
+                  総メンバー：170人（2025年12月現在）
                 </span>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Web3Page() {
                       <span className="text-base font-medium">髙木徹（教員）</span>
                     </div>
                     <div className="flex items-center gap-3">
-                    <Badge variant="secondary" className="text-base px-3 py-1">創設者/代表</Badge>
+                      <Badge variant="secondary" className="text-base px-3 py-1">創設者/代表</Badge>
                       <span className="text-base font-medium">増山裕輔</span>
                     </div>
                   </div>
@@ -91,7 +91,7 @@ export default function Web3Page() {
 
               {/* 三大要素セクション */}
               <div>
-                <h2 className="text-2xl font-bold mb-6">研究会の三大要素</h2>
+                <h2 className="text-2xl font-bold mb-6">研究会の三大活動</h2>
                 <div className="grid md:grid-cols-3 gap-4">
                   <Card className="border-2 hover:border-primary/50 transition-colors">
                     <CardContent className="pt-6 text-center">
@@ -209,9 +209,9 @@ export default function Web3Page() {
                       </p>
                     </div>
                     <Button asChild className="shrink-0">
-                      <a 
-                        href="https://www.canva.com/design/DAGrDbOHXLU/WXrrWQagniSk67jnwM-qVQ/view?utm_content=DAGrDbOHXLU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdf47bc10ec" 
-                        target="_blank" 
+                      <a
+                        href="https://www.canva.com/design/DAG6Ux7gs9k/ucp_8mvDiuWurLMBrR2uOA/view#1"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2"
                       >
