@@ -56,9 +56,9 @@ export default function BooksPage() {
                         </CardDescription>
                       </div>
                       <Button asChild variant="default" size="sm" className="w-fit">
-                        <a 
-                          href="https://amzn.asia/d/a10Vl3z" 
-                          target="_blank" 
+                        <a
+                          href="https://amzn.asia/d/a10Vl3z"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2"
                         >
@@ -82,8 +82,9 @@ export default function BooksPage() {
                     </div>
                     <div className="flex flex-col justify-between">
                       <div>
-                        <div className="mb-2">
+                        <div className="mb-2 flex items-center gap-2">
                           <span className="text-xs text-muted-foreground">自己啓発本</span>
+                          <span className="text-xs bg-muted px-2 py-1 rounded">共著</span>
                         </div>
                         <CardTitle className="text-xl mb-3">キミを動かす "きっかけ"</CardTitle>
                         <CardDescription className="text-base mb-4 leading-relaxed">
@@ -91,9 +92,9 @@ export default function BooksPage() {
                         </CardDescription>
                       </div>
                       <Button asChild variant="default" size="sm" className="w-fit">
-                        <a 
-                          href="https://amzn.asia/d/gTZV4ST" 
-                          target="_blank" 
+                        <a
+                          href="https://amzn.asia/d/gTZV4ST"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2"
                         >
@@ -175,16 +176,23 @@ export default function BooksPage() {
                       <div>
                         <div className="mb-2 flex items-center gap-2">
                           <span className="text-xs text-muted-foreground">教養・金融・経済</span>
-                          <span className="text-xs bg-accent text-accent-foreground px-2 py-1 rounded">執筆中</span>
                         </div>
                         <CardTitle className="text-xl mb-3">教養としての 金融・経済</CardTitle>
                         <CardDescription className="text-base mb-4 leading-relaxed">
                           私は年間100冊弱ほどの本を読むのですが、大半は投資や金融・経済といったジャンルの本になります。このジャンルの本を読んでいつも感じることは「なぜ、これほど重要なことを義務教育や高等教育で私は学ばなかったのか」という疑問があり、本書を通じて「これまで読書を通じて獲得してきた金融・経済知識のアウトプット」を兼ねて、「教養として知っておいた方が良い金融・経済知識」を読者に提供することを目的としています。また、私の研究領域であるweb3がもたらす金融革命という独自の視点も内容に取り入れています。
                         </CardDescription>
                       </div>
-                      <div className="text-sm text-muted-foreground italic">
-                        ※ 現在執筆中です
-                      </div>
+                      <Button asChild variant="default" size="sm" className="w-fit">
+                        <a
+                          href="https://amzn.asia/d/1BmrjjT"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2"
+                        >
+                          Amazon Kindleで見る
+                          <ExternalLink className="h-4 w-4" />
+                        </a>
+                      </Button>
                     </div>
                   </div>
                 </Card>

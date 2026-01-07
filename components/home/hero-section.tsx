@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Facebook, Mail, Twitter, BookOpen } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -29,25 +29,8 @@ export function HeroSection() {
                 <br />
                 平日は新規事業企画をリード/休日は個人開発と研究生
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              </div>
-              <div className="flex gap-4 mt-8 justify-center md:justify-start">
-                <Button variant="ghost" size="icon" asChild className="h-12 w-12">
-                  <a href="https://www.facebook.com/share/1Gjnt2kPfr/?mibextid=wwX" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                    <Facebook className="h-6 w-6" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="icon" asChild className="h-12 w-12">
-                  <a href="https://x.com/yusuke_jin?s=21&t=JHEsk-rsGMC-cOdI-Nqcdw" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                    <Twitter className="h-6 w-6" />
-                  </a>
-                </Button>
-                <Button variant="ghost" size="icon" asChild className="h-12 w-12">
-                  <a href="https://note.com/yusuke_wirter" target="_blank" rel="noopener noreferrer" aria-label="Note">
-                    <BookOpen className="h-6 w-6" />
-                  </a>
-                </Button>
-              </div>
+
+
             </div>
 
             <div className="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0">
