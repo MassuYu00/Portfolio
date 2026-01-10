@@ -50,10 +50,10 @@ export default function DevelopmentPage() {
                         ワーキングホリデーや語学留学などでトロントを訪れる人の多くはe-Mapleという、家探しや仕事探しなどの情報を共有し合う掲示板があります。
                         Toronto Infoでは、e-Mapleの完全上位互換プラットフォームを目指し、今後のビジョンとして、トロントだけでなく世界の国々に展開していきます。
                       </p>
-                      <Button asChild variant="outline" size="sm">
-                        <a 
-                          href="https://toronto-info.vercel.app/" 
-                          target="_blank" 
+                      <Button asChild variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
+                        <a
+                          href="https://toronto-info.vercel.app/"
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2"
                         >
