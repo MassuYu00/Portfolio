@@ -116,6 +116,53 @@ export default function DevelopmentPage() {
                 </div>
               </div>
 
+              {/* FIGHTER'S RISING */}
+              <Card className="border-2 hover:border-primary/50 transition-colors">
+                <CardHeader>
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="flex-1">
+                      <CardTitle className="text-xl mb-2">FIGHTER'S RISING</CardTitle>
+                      <CardDescription className="text-base">
+                        格闘技特化型プロスペクト育成DAO
+                      </CardDescription>
+                    </div>
+                    <Badge variant="outline" className="ml-4 shrink-0">ハッカソン作品</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex flex-wrap gap-2">
+                    <Badge variant="secondary" className="bg-orange-500/10 text-orange-600 hover:bg-orange-500/20 border-orange-200">
+                      MVP / Prototype
+                    </Badge>
+                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">
+                      ONE Championship×Sui
+                    </Badge>
+                    <Badge className="bg-primary/10 text-primary hover:bg-primary/20">
+                      Sui Blockchain
+                    </Badge>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    ONE Championship提携ハッカソン「Builder's Arena」にて開発したプロジェクトです（MVP版）。
+                    ファンが「エンジェル投資家兼セコンド」として選手を支援し、選手の成長と勝利に応じて金銭的・名誉的リターンを得られる自律分散型組織（DAO）プラットフォーム。
+                    <br /><br />
+                    ※本プロダクトはハッカソン期間内で開発されたMVP（Minimum Viable Product）であり、主要機能の実証実験を目的としています。
+                    <br />
+                    SuiのzkLogin技術により、Web3の知識がなくてもGoogleアカウント等で参加可能なUXを実現。投資持分を管理するComposable NFTや、貢献を証明するSBT（Soulbound Token）を活用し、ファンとアスリートが共に成長する新たなエコシステムを構築しました。
+                  </p>
+                  <Button asChild variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700 text-white">
+                    <a
+                      href="https://sui-hack-delta.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2"
+                    >
+                      サイトを見る
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+
               {/* 開発手法セクション */}
               <div>
                 <h2 className="text-2xl font-bold mb-6">開発手法</h2>
