@@ -25,9 +25,9 @@ export function HeroSection() {
                 <br />
               </h1>
               <p className="text-lg text-muted-foreground mb-8 text-pretty leading-relaxed">
-                AI駆動開発を武器にアイデアを再現するBizDevエンジニア
+                アイデアをビジネスに昇華させ、ビジネスをAI駆動開発で具現化するBizDevエンジニア
                 <br />
-                平日は新規事業企画をリード/休日は個人開発と研究生
+                平日は新卒エンジニア/休日は個人開発と研究生
               </p>
 
 
