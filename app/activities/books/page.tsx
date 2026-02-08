@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowLeft, ExternalLink } from "lucide-react"
+import { ArrowLeft, ExternalLink, Trophy } from "lucide-react"
 
 export default function BooksPage() {
   return (
@@ -47,8 +47,12 @@ export default function BooksPage() {
                     </div>
                     <div className="flex flex-col justify-between">
                       <div>
-                        <div className="mb-2">
+                        <div className="mb-2 flex items-center gap-2 flex-wrap">
                           <span className="text-xs text-muted-foreground">留学・ワーホリ・経験談</span>
+                          <span className="inline-flex items-center gap-1 text-xs bg-gradient-to-r from-amber-500 to-orange-500 text-white px-2 py-1 rounded-full font-medium">
+                            <Trophy className="h-3 w-3" />
+                            海外旅行ガイド 61位
+                          </span>
                         </div>
                         <CardTitle className="text-xl mb-3">30分でワーホリの概要とリアルを掴む本 2025</CardTitle>
                         <CardDescription className="text-base mb-4 leading-relaxed">
@@ -174,8 +178,12 @@ export default function BooksPage() {
                     </div>
                     <div className="flex flex-col justify-between">
                       <div>
-                        <div className="mb-2 flex items-center gap-2">
+                        <div className="mb-2 flex items-center gap-2 flex-wrap">
                           <span className="text-xs text-muted-foreground">教養・金融・経済</span>
+                          <span className="inline-flex items-center gap-1 text-xs bg-gradient-to-r from-amber-500 to-orange-500 text-white px-2 py-1 rounded-full font-medium">
+                            <Trophy className="h-3 w-3" />
+                            金融・ファイナンス 新着11位
+                          </span>
                         </div>
                         <CardTitle className="text-xl mb-3">教養としての 金融・経済</CardTitle>
                         <CardDescription className="text-base mb-4 leading-relaxed">
